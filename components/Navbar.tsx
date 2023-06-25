@@ -14,19 +14,19 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      console.log(window.scrollY)
+      console.log(window.scrollY);
       if (window.scrollY >= TOP_OFFSET) {
-        setShowBackground(true)
+        setShowBackground(true);
       } else {
-        setShowBackground(false)
+        setShowBackground(false);
       }
-    }
+    };
 
     window.addEventListener('scroll', handleScroll);
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
-    }
+    };
   }, []);
 
   const toggleAccountMenu = useCallback(() => {
@@ -63,7 +63,7 @@ const Navbar = () => {
           </div>
           <div onClick={toggleAccountMenu} className="flex flex-row items-center gap-2 cursor-pointer relative">
             <div className="w-6 h-6 lg:w-10 lg:h-10 rounded-md overflow-hidden">
-              <img src="/images/default-blue.png" alt="" />
+              <img src="/images/default.jpg" alt="" />
             </div>
             <ChevronDownIcon className={`w-4 text-white fill-white transition ${showAccountMenu ? 'rotate-180' : 'rotate-0'}`} />
             <AccountMenu visible={showAccountMenu} />
@@ -71,7 +71,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
-  )
-}
+  );
+};
 
 export default Navbar;
