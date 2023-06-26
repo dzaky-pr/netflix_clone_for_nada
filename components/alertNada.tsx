@@ -16,7 +16,7 @@ const AlertNada = () => {
         Dalam 4 bulan terakhir, kita telah berbagi banyak kenangan indah bersama. Setiap saat yang kita lewati bersama-sama menjadi sebuah petualangan yang tak terlupakan. Melalui tawa, tangis, dan canda, kita tumbuh bersama dan saling mendukung satu sama lain. <br><br> 
         Semoga panjang umur, sehat selalu, makin pinter, cantik, sholeh, dan kurangin mangkelnya hehe.
       `,
-      confirmButtonText: 'Aamiin, aku janji',
+      confirmButtonText: 'Aamiin, aku janji hehe',
     });
   }, []);
 
