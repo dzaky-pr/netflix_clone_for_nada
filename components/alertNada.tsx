@@ -13,6 +13,10 @@ const AlertNada = () => {
         Semoga panjang umur, sehat selalu, makin pinter, cantik, sholeh, dan kurangin mangkelnya hehe.
       `,
       confirmButtonText: 'Aamiin, aku janji',
+      imageUrl: 'https://storage.googleapis.com/ndapupam/qr.png',
+      imageWidth: 240,
+      imageHeight: 240,
+      imageAlt: 'Special QR Code',
     });
   }, []);
 
