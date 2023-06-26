@@ -9,7 +9,7 @@ const AlertNada = () => {
       imageHeight: 240,
       imageAlt: 'Special QR Code',
       title: 'Halo Cantik!',
-      html: `
+      text: `
         Selamat Ulang Tahun, Nada! <br><br> 
         Selamat ulang tahun yang ke-19! Hari ini adalah momen spesial yang menandai tahun baru dalam perjalanan hidupmu. <br><br> 
         Aku ingin mengucapkan selamat ulang tahun dengan penuh cinta dan harapan. <br><br> 
