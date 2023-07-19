@@ -4,19 +4,20 @@ import Swal from 'sweetalert2';
 const AlertNada = () => {
   useEffect(() => {
     Swal.fire({
-      imageUrl: 'https://storage.googleapis.com/ndapupam/qr.png',
+      imageUrl: 'https://storage.googleapis.com/ndapupam/qr1month.png',
       imageWidth: 240,
       imageHeight: 240,
-      imageAlt: 'Special QR Code',
-      title: 'Halo Cantik!',
+      imageAlt: 'Special QR Code (beda)',
+      title: 'Happy Anniversary 1 Bulan Dekna!',
       html: `
-        Selamat Ulang Tahun, Nada! <br><br> 
-        Selamat ulang tahun yang ke-19! Hari ini adalah momen spesial yang menandai tahun baru dalam perjalanan hidupmu. <br><br> 
-        Aku ingin mengucapkan selamat ulang tahun dengan penuh cinta dan harapan. <br><br> 
-        Dalam 4 bulan terakhir, kita telah berbagi banyak kenangan indah bersama. Setiap saat yang kita lewati bersama-sama menjadi sebuah petualangan yang tak terlupakan. Melalui tawa, tangis, dan canda, kita tumbuh bersama dan saling mendukung satu sama lain. <br><br> 
-        Semoga panjang umur, sehat selalu, makin pinter, cantik, sholeh, dan kurangin mangkelnya hehe.
+      Satu bulan telah berlalu sejak kita memulai perjalanan ini bersama-sama. Selama satu bulan ini, setiap momen bersamamu adalah kenangan indah yang tak terlupakan. Terima kasih telah membuat hidupku lebih berarti, berwarna, dan penuh cinta.
+      <br/><br/>
+      Semoga kita dapat terus menjalin hubungan yang kuat dan saling mendukung satu sama lain. Mohon maaf aku masih jauh dari kata cukup dan sempurna. Aku bersyukur atas hadirnya kamu di duniaku, dan tak sabar untuk melihat apa yang masa depan miliki untuk kita berdua. Aamiin.
+      <br/><br/>
+      Salam hangat, Mas Dzaky ❤️
+      
       `,
-      confirmButtonText: 'Aamiin, aku janji',
+      confirmButtonText: 'Aamiin',
     });
   }, []);
 
